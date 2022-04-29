@@ -98,9 +98,7 @@ class QRCode extends React.Component {
                 </Typography>
                 <div className='qr-content'>
                     <div id='qr-canvas'/>
-                    <div className='qr-telegram-logo'>
-                        <Logo className='telegram-logo'/>
-                    </div>
+                    
                 </div>
                 <Typography variant='body1' className='auth-qr-subtitle'>
                     {t('QRHint')}

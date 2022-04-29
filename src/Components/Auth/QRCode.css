@@ -27,24 +27,6 @@
     border-radius: 12px;
 }
 
-.qr-telegram-logo {
-    width: 91px;
-    height: 91px;
-    background: white;
-    position: absolute;
-    left: 110px;
-    top: 110px;
-    box-sizing: border-box;
-}
-
-.telegram-logo {
-    width: 91px;
-    height: 91px;
-    padding: 7px;
-    box-sizing: border-box;
-    fill: var(--color-accent-main);
-    animation: 0.25s ease-out 0.1s both qr-content-animation;
-}
 
 .auth-qr-subtitle {
     color: var(--text-secondary);
