@@ -46,7 +46,7 @@ class TelegramApp extends Component {
     constructor(props) {
         super(props);
 
-        console.log(`Start Telegram Web ${packageJson.version}`);
+        console.log(`Start Kobalt Web ${packageJson.version}`);
         console.log('[auth] ctor', props.location);
 
         this.state = {
@@ -371,7 +371,7 @@ class TelegramApp extends Component {
                     onClose={this.handleRefresh}
                     aria-labelledby='fatal-error-dialog-title'
                     aria-describedby='fatal-error-dialog-description'>
-                    <DialogTitle id='fatal-error-dialog-title'>Telegram</DialogTitle>
+                    <DialogTitle id='fatal-error-dialog-title'>Kobalt</DialogTitle>
                     <DialogContent>
                         <DialogContentText id='fatal-error-dialog-description'>
                             Oops! Something went wrong. We need to refresh this page.
@@ -444,4 +444,4 @@ const enhance = compose(
     withTheme
 );
 
-export default enhance(TelegramApp);
+export default enhance(KobaltApp);
